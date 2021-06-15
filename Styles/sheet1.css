@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*,*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 body{
     background-color: black;
+    
     font-family: 'Mate SC', serif;
     color: cornflowerblue;
 }
