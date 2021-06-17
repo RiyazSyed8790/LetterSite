@@ -204,6 +204,114 @@ footer{
 }
 
 /*footer styling ends*/
+
+/*About styling start*/
+
+/*main h1{
+    text-align: center;
+
+}*/
+main .container {
+    display: flex;
+    color: whitesmoke;
+}
+main .container .col{
+    margin: 2rem 1rem ;
+}
+
+main .container aside{
+    margin: 2rem 1rem ;
+}
+main .container .col h1{
+  color: orangered;
+  font-size: 2rem;
+  margin-bottom: 2.5rem; 
+}
+main .container .col .p1 {
+    font-size: 1.5rem;
+}
+main .container .col .p2{
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    margin: 2.5rem 0 ;
+    min-height: 10rem ;
+}
+
+main aside div {
+    min-height: 20rem;
+    border: 3px solid yellow;   
+}
+main aside i{
+    margin-right: 0.5rem;
+}
+main aside h2{
+    font-size: 2rem;
+    color: orangered;
+    padding-left: 0.25rem;
+    margin:1rem 1rem;
+    
+}
+
+main aside p {
+ font-size: 1.25rem;
+ margin: 0.5rem 1rem;
+    
+}
+
+/*About styling end*/
+
+/*Services styling start*/
+main .container .col1{
+    margin: 2rem 1rem ;
+    border: 3px solid yellow;
+    font-size: 1.5rem;
+}
+
+main .container .col1 h1{
+    color: orangered;
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    
+
+  }
+  main .container .col1 p {
+      font-size: 1.75rem;
+      margin: 1rem 1rem;
+
+  }
+  main .col2 {
+      color: whitesmoke;
+      border: 3px solid yellow ;
+      max-width: 54.5rem;
+      margin: 2rem 10.5rem;
+  }
+
+  main .col2 h1{
+      color: orangered;
+      font-size: 3rem;
+    padding: 1rem 1rem;
+  }
+
+  main .col2 p{
+    font-size: 1.75rem;
+      margin: 1rem 1rem;
+      
+  }
+ main aside {
+    min-width: 17.5rem; 
+ }
+ main aside h3 {
+     margin: 0 1rem;
+ }
+ main aside div .btn {
+     margin: 1rem 1rem;
+ }
+ main .title {
+    padding: 2rem 11rem;
+ }
+
+/*Services styling End*/
 /*Responsive Css start*/
 @media( max-width : 768px){
    nav .branding, nav ul , nav ul li {
