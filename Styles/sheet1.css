@@ -204,7 +204,7 @@ footer{
 }
 
 /*footer styling ends*/
-
+/*Responsive Css start*/
 @media( max-width : 768px){
    nav .branding, nav ul , nav ul li {
        float: none;
@@ -213,23 +213,25 @@ footer{
    } 
 
    header h1 {
-     margin-top: 4rem;
+     margin-top: 3rem;
      font-size: 2rem;
 }
  header p {
-     font-size: 1.2rem;
+     font-size: 1.25rem;
  }
 
- section h2{
+ .news-letter h2,.news-letter form input , .news-letter form button{
      display: block;
      width: 100%;
      float: none;
      text-align: center;
+     margin-bottom: 1rem;
  }
-
- section form input {
-     display: block;
+ .cards .container .card{
      width: 100%;
-     float: none;
+ }
+ footer p {
+   width: 100%;  
  }
 }
+/*Responsive css end*/
