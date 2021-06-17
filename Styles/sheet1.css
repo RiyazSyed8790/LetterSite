@@ -14,7 +14,7 @@ html{
     overflow: hidden;
 }
 .btn {
-    height: 2.5rem;
+    height: 2rem;
     /* background: #ccc; */
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -117,33 +117,39 @@ nav ul li a:hover{
 /*News-letter styling start*/
 .news-letter{
     padding: 1rem;
-    background-color: teal;
-    color: wheat;
+    background-color: rgb(248, 74, 6);
+    color: whitesmoke ;
+    border: yellow 4px dotted;
 }
 
 .news-letter h2{
     float: left;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
 }
 .news-letter form{
     float: right;
-    margin-top: 0.5rem ;
+    margin-top: 0.3rem ;
 }
 .news-letter input[type = "email"]{
-    padding: 0.5rem;
-    height: 1rem;
-    width: 15rem;
-}
-.btn{
-    height: 1.25rem;
-    width: 5rem;
-    background:silver;
+    padding: 1rem;
+    height: 2rem;
+    width: 16rem;
     border-radius: 3px;
-    padding: 5px 25px;
+    border: 0;
+}
+.news-letter input[type = "email"]:focus{
+    outline: none;
+}
+.news-letter .btn{
+    
+    
+    background-color:silver;
+    
     cursor: pointer;
     text-align: center;
-    font-family: 'Mate SC', serif;
-    font-size: 0.5rem;
     
+        
     
 }
 
