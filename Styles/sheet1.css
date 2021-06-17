@@ -160,25 +160,36 @@ nav ul li a:hover{
     display: flex;
     text-align: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cards {
-    background-color: whitesmoke;
-    padding: 1rem 1rem ;
+    padding:  2rem 0rem ;
+    margin: 2rem 0rem;
 }
 
 .cards .container .card {
-    width: 30%;
-    margin: 0 0.5rem;
+    width: 28%;
+    margin: 0 1rem;
     padding: 0 0.5rem;
 }
 
 .cards .container .card i{
     color: tomato;
-    padding : 1rem 0.5rem;
+    padding : 1rem ;
     font-size: 2rem;
     
 }
+ .cards .container .card h3{
+     font-size: 1.5rem;
+     color: whitesmoke;
+ }
+
+ .cards .container .card p{
+    font-size: 1rem;
+    color: yellow; 
+    margin-top: 1rem ;
+ }
 /*cards styling end*/
 
 /* footer styling start*/
