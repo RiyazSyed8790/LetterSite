@@ -341,5 +341,19 @@ main .container .col1 h1{
  footer p {
    width: 100%;  
  }
+ main .container{
+  display: block;
+}
+main  .col2   {
+    color: whitesmoke;
+    border: 3px solid yellow ;
+    margin: 1rem 6rem ;
+    max-width: 37.5rem;
+    
+}
+main .title {
+   padding-left: 6rem; 
+}
+
 }
 /*Responsive css end*/
