@@ -240,7 +240,8 @@ main .container .col .p2{
 
 main aside div {
     min-height: 20rem;
-    border: 3px solid yellow;   
+    border: 3px solid yellow; 
+      
 }
 main aside i{
     margin-right: 0.5rem;
@@ -262,20 +263,21 @@ main aside p {
 /*About styling end*/
 
 /*Services styling start*/
-main .container .col1{
-    margin: 2rem 1rem ;
+main .container  .a1{
+    margin: 2rem 0rem ;
     border: 3px solid yellow;
     font-size: 1.5rem;
+    
 }
 
-main .container .col1 h1{
+main .container .a1 h1{
     color: orangered;
     font-size: 3rem;
     padding: 1rem 1rem;
     
 
   }
-  main .container .col1 p {
+  main .container .a1 p {
       font-size: 1.75rem;
       margin: 1rem 1rem;
 
@@ -283,8 +285,9 @@ main .container .col1 h1{
   main .col2 {
       color: whitesmoke;
       border: 3px solid yellow ;
-      max-width: 54.5rem;
-      margin: 2rem 10.5rem;
+      margin-bottom: 2.5rem;
+      
+      
   }
 
   main .col2 h1{
@@ -298,8 +301,12 @@ main .container .col1 h1{
       margin: 1rem 1rem;
       
   }
+ main aside div {
+     margin-left: 1rem ;
+ } 
  main aside {
-    min-width: 17.5rem; 
+    min-width: 18rem;
+     
  }
  main aside h3 {
      margin: 0 1rem;
@@ -344,15 +351,21 @@ main .container .col1 h1{
  main .container{
   display: block;
 }
-main  .col2   {
+main  .col2 {
     color: whitesmoke;
     border: 3px solid yellow ;
-    margin: 1rem 6rem ;
-    max-width: 37.5rem;
+    
+    
+
     
 }
 main .title {
    padding-left: 6rem; 
+}
+
+main aside div{
+    margin-left:0 ;
+    max-width: 16rem;
 }
 
 }
