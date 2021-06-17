@@ -365,8 +365,22 @@ main .title {
 
 main aside div{
     margin-left:0 ;
-    max-width: 16rem;
+    
 }
 
+main aside div h2, main aside div form {
+    margin-left: 2rem;
+}
+
+}
+
+@media(max-width: 380px){
+    main aside div{
+        margin-left:0 ;
+        max-width: 16rem;
+    }  
+    main aside div h2 , main aside div form{
+        margin-left: 0;
+    } 
 }
 /*Responsive css end*/
