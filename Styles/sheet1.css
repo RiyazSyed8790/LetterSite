@@ -195,11 +195,12 @@ nav ul li a:hover{
 /* footer styling start*/
 
 footer{
-    padding:  2rem;
-    margin-top: 2rem;
-    background-color: yellowgreen;
+    
+    margin-top: 0.75rem 0;
+    background-color: orangered;
     color: cornsilk;
     text-align: center;
+    max-height: 1.5rem;
 }
 
 /*footer styling ends*/
